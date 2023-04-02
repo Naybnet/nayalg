@@ -1,0 +1,22 @@
+
+{
+  "compilerOptions": {
+    "target": "es2018",
+    "module": "CommonJS",
+    "lib": ["esnext"],
+    "moduleResolution": "node", // Specify the module resolution strategy
+    "esModuleInterop": true, // Fix issues specific to CommonJS import modules
+    "strict": true,
+    "resolveJsonModule": true, // Enable importing .json files.
+    "skipLibCheck": true, // Enabling the skipLibCheck option instructs the compiler to skip type checking of all declaration (*.d.ts) files. This includes the *.d.ts files from the node_modules directory and your custom *.d.ts files.
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": false,
+    "noUnusedLocals": true,
+    "noUnusedParameters": false,
+    "pretty": true,
+    "stripInternal": true,
+    "outDir": "dist",
+  },
+  "include": ["./src"],
+  "exclude": ["./dist", "./node_modules"]
+}
