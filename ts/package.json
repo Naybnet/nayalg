@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "ts-node src/index.ts",
+    "advent": "ts-node src/advent.ts",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
   },

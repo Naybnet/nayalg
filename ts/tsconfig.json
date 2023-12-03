@@ -11,7 +11,7 @@
     "skipLibCheck": true, // Enabling the skipLibCheck option instructs the compiler to skip type checking of all declaration (*.d.ts) files. This includes the *.d.ts files from the node_modules directory and your custom *.d.ts files.
     "noFallthroughCasesInSwitch": true,
     "noImplicitReturns": false,
-    "noUnusedLocals": true,
+    "noUnusedLocals": false,
     "noUnusedParameters": false,
     "pretty": true,
     "stripInternal": true,
